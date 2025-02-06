@@ -234,16 +234,15 @@ h1{
   }
 
 .footer{
-    margin-top: 40px;
-	padding: 1rem;
-    justify-content: center;
+	padding: 1.5rem;
+    	justify-content: center;
+	align-items: center;
 	text-align: center;
 }
-.portfolio{
+.footer a{
     color: white;
     font-style: italic;
-    font-size: 0.8rem;
-    text-align: center;
+    font-size: 0.7rem;
 }
   
   @keyframes bounce {
