@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img width="50rem" src="./logo.png" alt="ai image">
+            <h1>Dandy AI Chat</h1>
+            <p class="subtitle">Chat with dandy's advanced AI model</p>
+        </header>
+
+        <div class="chat-container">
+            <div class="chat-messages" id="chatMessages">
+                <div class="message">
+                    <div class="avatar">AI</div>
+                    <div class="message-content">
+                        Hello! I'm Dandy AI. How can i help you today?
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-container">
+                <form class="input-form" id="chatForm">
+                    <textarea 
+                    id="userInput"
+                    placeholder="Type your message here..."
+                    rows="1" required
+                    ></textarea>
+                    <button type="submit" id="sendButton">Send</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <a href="https://dandyportfolio.vercel.app" target="_blank">&copy 2025 | Dandy Ama | All rights reserved</a>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
