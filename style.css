@@ -232,6 +232,17 @@ h1{
   .dot:nth-child(3) {
     animation-delay: 0.4s;
   }
+
+.footer{
+    margin-top: 40px;
+padding: 1rem;
+text-align: center;
+}
+.portfolio{
+    color: #ffffff;
+    font-style: italic;
+    font-size: 0.8rem;
+}
   
   @keyframes bounce {
     0%,
